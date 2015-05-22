@@ -44,6 +44,11 @@
     },
     {
       "matches": ["http://local.flyerservices.com/SOB/FRSH/*/*/Tex*"],
+      "js": ["freshco_redirect.js"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["http://local.flyerservices.com/SOB/FRSH/*/*/Produc*"],
       "js": ["freshco_download_flyer.js"],
       "run_at": "document_end"
     }
